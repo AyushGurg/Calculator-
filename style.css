@@ -1,0 +1,41 @@
+#main {
+    background-color: blueviolet;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    width: 600px;
+    height:800px;
+    display: flex;
+    flex-direction: column;
+}
+
+#display {
+    flex-basis: 200px;
+    flex-shrink: 0;
+    border: solid 10px teal;
+    border-radius: 5px;
+}
+
+#top,#leftSide,#rightSide,#bottom,#display{
+    display: flex;
+    box-sizing: border-box;
+}
+
+#top {
+    
+    flex-basis: 480px;
+    
+}
+#leftSide {
+    flex-wrap: wrap;
+   
+}
+#rightSide{
+    flex-direction: column;
+}
+
+.button {
+    box-sizing: border-box;
+    border: solid 5px teal;
+    border-radius: 5px;
+}
