@@ -10,6 +10,7 @@
 }
 
 #display {
+    flex-direction: column;
     flex-basis: 200px;
     flex-shrink: 0;
     border: solid 10px teal;
@@ -38,4 +39,17 @@
     box-sizing: border-box;
     border: solid 5px teal;
     border-radius: 5px;
+}
+
+body {
+    background-color: rgb(34, 33, 33);
+}
+
+#equation {
+    font-size: larger;
+}
+#finalcalc{
+    margin-left: auto;
+    margin-top: auto;
+    font-size: larger;
 }
